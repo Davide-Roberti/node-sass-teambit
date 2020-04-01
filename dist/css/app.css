@@ -111,3 +111,61 @@ nav .menu button:hover {
   color: #304890;
 }
 
+/*secondsection*/
+
+.secondsection {
+  background-color: #ffe7d1;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.secondsection h2 {
+  font-size: 25px;
+  padding: 0 250px;
+  line-height: 40px;
+}
+
+.secondsection .cards {
+  display: flex;
+  justify-content: center;
+  margin: 55px 0;
+}
+
+.secondsection .cards .card {
+  width: 200px;
+  margin: 0 50px;
+}
+
+.secondsection .cards .card img {
+  width: 80%;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.secondsection .cards .card p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.secondsection .up {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #bab6b5;
+}
+
+.secondsection .up img {
+  width: 300px;
+}
+
+.secondsection .down {
+  padding-top: 100px;
+}
+
+.secondsection .down .card:last-child img {
+  width: 80px;
+}
+
+.secondsection .down img {
+  width: 300px;
+  margin-bottom: 50px;
+}
+

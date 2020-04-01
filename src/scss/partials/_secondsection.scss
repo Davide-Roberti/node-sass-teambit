@@ -1,0 +1,47 @@
+.secondsection {
+    background-color: $pink-color;
+    text-align: center;
+    padding: 100px 0;
+    h2 {
+        font-size: 25px;
+        padding: 0 250px;
+        line-height: 40px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        margin: 55px 0;
+        .card {
+            width: 200px;
+            margin: 0 50px;
+            img {
+                width: 80%;
+                height: 120px;
+                margin-bottom: 20px;
+            }
+            p {
+                line-height: 25px;
+                font-size: 18px;
+            }
+        }
+    }
+    .up {
+        padding-bottom: 100px;
+        border-bottom: $section-border;
+        img {
+            width: 300px;
+        }
+    }
+    .down {
+        padding-top: 100px;
+        .card:last-child {
+            img {
+                width: 80px;
+            }
+        }
+        img {
+            width: 300px;
+            margin-bottom: 50px;
+        }
+    }
+}
