@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: $section-border;
+    .menu {
+        display: flex;
+        align-items: center;
+        li {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 10px;
+        }
+        button {
+            margin-left: 20px;
+            padding: 5px 10px;
+            border: 1px solid $blue-color;
+            color: $blue-color;
+            font-weight: bold;
+            background-color: white;
+            &:hover {
+                color: white;
+                background-color: $blue-color;
+            }
+        }
+    }
+}
