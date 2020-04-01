@@ -18,7 +18,7 @@ a {
 }
 
 button {
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 /*navbar*/
@@ -40,7 +40,7 @@ nav .menu li {
   display: inline-block;
   font-weight: bold;
   font-size: 14px;
-  padding: 10px;
+  padding: 0 15px;
 }
 
 nav .menu button {
@@ -58,4 +58,56 @@ nav .menu button:hover {
 }
 
 /*firstsection*/
+
+.firstsection {
+  display: flex;
+  padding: 100px 0;
+}
+
+.firstsection > div {
+  width: 50%;
+}
+
+.firstsection > div img {
+  width: 100%;
+}
+
+.firstsection .left h1 {
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.firstsection .left h4 {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.firstsection .left button {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: #304890;
+  margin-bottom: 20px;
+}
+
+.firstsection .left button:hover {
+  background-color: #233569;
+}
+
+.firstsection .left span {
+  margin: 0 20px;
+  font-size: 12px;
+  color: #c5bab6;
+}
+
+.firstsection .left a {
+  font-size: 14px;
+}
+
+.firstsection .left a:hover {
+  color: #304890;
+}
 
