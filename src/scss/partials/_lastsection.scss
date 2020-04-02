@@ -1,0 +1,13 @@
+.lastsection {
+    background-color: $pink-color;
+    padding: 100px 0 50px;
+    text-align: center;
+    .blocco-scritto {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid grey;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+}

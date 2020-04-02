@@ -202,7 +202,7 @@ nav .menu button:hover {
 }
 
 .middlesection .img-piccola img {
-  width: 250px;
+  width: 300px;
 }
 
 .middlesection .row {
@@ -225,5 +225,22 @@ nav .menu button:hover {
 
 .middlesection .row.dispari .right {
   padding-right: 130px;
+}
+
+/*lastsection*/
+
+.lastsection {
+  background-color: #ffe7d1;
+  padding: 100px 0 50px;
+  text-align: center;
+}
+
+.lastsection .blocco-scritto {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid grey;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
 }
 
