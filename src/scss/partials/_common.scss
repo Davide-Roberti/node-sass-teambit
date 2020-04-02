@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -19,4 +23,9 @@ a {
 
 button {
     border-radius: 6px;
+}
+
+.left,
+.right {
+    width: 50%;
 }

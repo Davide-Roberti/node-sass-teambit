@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   width: 85%;
   margin: 0 auto;
@@ -19,6 +23,11 @@ a {
 
 button {
   border-radius: 6px;
+}
+
+.left,
+.right {
+  width: 50%;
 }
 
 /*navbar*/
@@ -62,10 +71,6 @@ nav .menu button:hover {
 .firstsection {
   display: flex;
   padding: 100px 0;
-}
-
-.firstsection > div {
-  width: 50%;
 }
 
 .firstsection > div img {
@@ -167,5 +172,58 @@ nav .menu button:hover {
 .secondsection .down img {
   width: 300px;
   margin-bottom: 50px;
+}
+
+/*thirdsection*/
+
+.middlesection {
+  padding: 100px 0 0;
+}
+
+.middlesection h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.middlesection p {
+  font-size: 20px;
+  line-height: 35px;
+  padding-bottom: 40px;
+}
+
+.middlesection a {
+  color: #304890;
+  font-size: 20px;
+}
+
+.middlesection .img-piccola {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.middlesection .img-piccola img {
+  width: 250px;
+}
+
+.middlesection .row {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.middlesection .row.pari .right img {
+  width: 800px;
+}
+
+.middlesection .row.pari .left {
+  padding-left: 130px;
+}
+
+.middlesection .row.dispari .left img {
+  width: 800px;
+  transform: translateX(-30%);
+}
+
+.middlesection .row.dispari .right {
+  padding-right: 130px;
 }
 
