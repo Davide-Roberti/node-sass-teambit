@@ -33,11 +33,20 @@ button {
 /*navbar*/
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: white;
+}
+
+nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
   border-bottom: 1px solid #bab6b5;
+  padding: 20px 0;
 }
 
 nav .menu {
@@ -70,7 +79,7 @@ nav .menu button:hover {
 
 .firstsection {
   display: flex;
-  padding: 100px 0;
+  padding: 160px 0 100px;
 }
 
 .firstsection > div img {

@@ -1,9 +1,17 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    border-bottom: $section-border;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: white;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: $section-border;
+        padding: 20px 0;
+    }
     .menu {
         display: flex;
         align-items: center;
