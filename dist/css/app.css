@@ -30,6 +30,17 @@ button {
   width: 50%;
 }
 
+.conversation {
+  font-size: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 15px;
+  background-color: #304890;
+  color: white;
+  border-radius: 50%;
+}
+
 /*navbar*/
 
 nav {
