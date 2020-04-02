@@ -2,12 +2,49 @@
     background-color: $pink-color;
     padding: 100px 0 50px;
     text-align: center;
+    h2 {
+        font-size: 35px;
+        padding: 0 350px;
+        margin-bottom: 70px;
+    }
     .blocco-scritto {
         background-color: white;
-        padding: 20px;
-        border: 1px solid grey;
-        width: 80%;
+        padding: 20px 40px;
+        border: $section-border;
+        border-radius: 6px;
+        width: 60%;
         margin: 0 auto;
         text-align: left;
+        margin-bottom: 50px;
+        p {
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+        .profili-creatori {
+            display: flex;
+            align-items: center;
+            img {
+                width: 50px;
+                margin-right: 15px;
+            }
+            p {
+                font-size: 14px;
+                color: $blue-color;
+                margin-bottom: 0;
+            }
+            span {
+                font-size: 12px;
+                margin-left: 0px;
+            }
+        }
+    }
+    button {
+        @include buttons;
+    }
+    span {
+        @include spanBetween;
+    }
+    a {
+        @include useMail;
     }
 }
